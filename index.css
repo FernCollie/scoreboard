@@ -67,3 +67,7 @@ button:hover {
     margin: 10px auto;
     margin-bottom: 20px;
 }
+
+#reset {
+    text-align: center;
+}
