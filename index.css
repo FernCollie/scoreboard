@@ -23,7 +23,7 @@ h3 {
     border-radius: 20px;
 }
 
-button {
+.button-add {
     width: 40px;
     height: 40px;
     margin: 5px 5px;
@@ -38,10 +38,6 @@ button {
 button:hover {
     color: #d4af37;
     border-color: #F94F6D;
-}
-
-#newgame-btn {
-    display: block;
 }
 
 #scorehome-el {
@@ -70,4 +66,12 @@ button:hover {
 
 #reset {
     text-align: center;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #1B244A;
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+    color: #d4af37;
+    margin: 1px;
 }
