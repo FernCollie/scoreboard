@@ -1,5 +1,5 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,22 +8,25 @@
     </head>
     <body>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
-                <p id="scorehome-el">0</p>
-                <button class="button-add" onclick="plusOneHome()">+1</button>
-                <button class="button-add" onclick="plusTwoHome()">+2</button>
-                <button class="button-add" onclick="plusThreeHome()">+3</button>
+            <div class="scorecontainer">
+                <div>
+                    <h3>HOME</h3>
+                    <p id="scorehome-el">0</p>
+                    <button class="button-add" onclick="plusOneHome()">+1</button>
+                    <button class="button-add" onclick="plusTwoHome()">+2</button>
+                    <button class="button-add" onclick="plusThreeHome()">+3</button>
+               </div>
+        
+                <div>
+                    <h3>GUEST</h3>
+                    <p id="scoreguest-el">0</p>
+                    <button class="button-add" onclick="plusOneGuest()">+1</button>
+                    <button class="button-add" onclick="plusTwoGuest()">+2</button>
+                    <button class="button-add" onclick="plusThreeGuest()">+3</button>
+                </div>
             </div>
-            <div>
-                <h3>AWAY</h3>
-                <p id="scoreguest-el">0</p>
-                <button class="button-add" onclick="plusOneGuest()">+1</button>
-                <button class="button-add" onclick="plusTwoGuest()">+2</button>
-                <button class="button-add" onclick="plusThreeGuest()">+3</button>
-            </div>
+                    <p><button id="reset" onclick="resetGame()">NEW GAME</button></p>
          </div>
-         <span><button id="reset" onclick="resetGame()">NEW GAME</button></span>
-        <script src="index.js"></script>
+          <script src="index.js"></script>
     </body>
 </html>
